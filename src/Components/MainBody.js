@@ -4,6 +4,8 @@ import CoverPage from './CoverPage'
 import images from '../Images/backgroundTheme.webp'
 import SecondSection from './SecondSection'
 import BookaTable from './BookaTable'
+import Table from './Table'
+import TodayMenu from './TodayMenu'
 const MainBody = () => {
     const style = {
         backgroundImage: `url(${images})`,
@@ -20,6 +22,12 @@ const MainBody = () => {
             </div>
             <div>
                 <BookaTable/>
+            </div>
+            <div>
+                <Table/>
+            </div>
+            <div>
+                <TodayMenu/>
             </div>
         </>
 
